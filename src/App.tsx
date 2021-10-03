@@ -1,7 +1,13 @@
 import React from 'react';
+import GlobalStyles from './GlobalStyles';
 
 function App() {
-  return <div>Template de início de projeto React.</div>;
+  return (
+    <>
+      <div> Projeto template React </div>
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
