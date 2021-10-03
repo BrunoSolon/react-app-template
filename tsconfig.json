@@ -1,5 +1,7 @@
 {
+  "extends": "./paths.json",
   "compilerOptions": {
+    "noImplicitAny": false,
     "target": "es5",
     "lib": [
       "dom",
@@ -18,9 +20,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": [
-    "src"
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }
