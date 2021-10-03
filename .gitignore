@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+### VisualStudioCode ###
+/.vscode
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### WebStorm Patch ###
+.idea/
+.eslintcache
